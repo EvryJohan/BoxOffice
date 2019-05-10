@@ -20,7 +20,7 @@ On top of this, it is not persistant and resets on app start - Making it persist
 
 To verify the application, a series of tests have been written in a separate project.
 
-The goal of this test is to implement and improve all of the controller methods. 
+The goal of this test is to implement missing methods and improve existing ones in the controller. 
 Refactoring the solution and improving the test project is not necessary but we will discuss the solution as a whole once the task has been completed.
 
 Good luck!
