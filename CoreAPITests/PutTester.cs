@@ -55,7 +55,8 @@ namespace CoreAPITests
 
             var newNumber = _movieController.Get().Length;
 
-            Assert.Greater(newNumber, originalNumber, "The number of movies in the database did not increase.");
+            //Assert.Greater(newNumber, originalNumber, "The number of movies in the database did not increase.");
+            Assert.AreEqual(newNumber, originalNumber + 1, "The number of movies in the database did not increase by one.");
         }
 
         [Test, Description("Should insert a movie, then update its description."), MaxTime(500)]
