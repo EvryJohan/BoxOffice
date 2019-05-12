@@ -22,7 +22,7 @@ namespace CoreAPITests
 
         }
 
-        [Test, Description("Checks if movie implements ratings."), MaxTime(6500)]
+        [Test, Description("Checks if movie implements ratings."), MaxTime(500)]
         public void MoviesHasRating()
         {
 
